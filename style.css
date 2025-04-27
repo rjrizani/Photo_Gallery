@@ -97,3 +97,40 @@ padding: 0px;
     opacity: 0.8;
 }
 
+
+/* CARD GALLERY */
+.card {
+    position: relative;
+    padding: 5%;
+    width: 90%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.card h1{
+    position: relative;
+    width: 100%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+a: link{
+    text-decoration: none;
+}
+
+.photo-card .img-box{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 0 10px black;
+}
